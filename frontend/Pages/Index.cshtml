@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+Weather Forecast:
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Profile</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{var no=1;}
+        @foreach (var forecast in @Model.Employees)
+        {
+            <tr>
+                <td>@no</td>
+                <td>@forecast.Profile</td>
+                <td>@forecast.FirstName @forecast.LastName</td>
+                <td>@forecast.Email</td>
+                <td>@forecast.Address</td>
+                <td>@forecast.PhoneNumber</td>
+                <td></td>
+            </tr>
+            no++;
+        }
+    </tbody>
+</table>
