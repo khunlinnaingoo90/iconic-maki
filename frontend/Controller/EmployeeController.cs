@@ -3,7 +3,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 namespace frontend
 {
-   public class WeatherClient
+   public class EmployeeController
    {
       private readonly JsonSerializerOptions options = new JsonSerializerOptions()
       {
@@ -13,7 +13,7 @@ namespace frontend
 
       private readonly HttpClient client;
 
-      public WeatherClient(HttpClient client)
+      public EmployeeController(HttpClient client)
       {
          this.client = client;
       }

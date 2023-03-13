@@ -7,7 +7,7 @@ builder.Services.AddRazorPages();
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Services.AddHttpClient<WeatherClient>(client =>{
+builder.Services.AddHttpClient<EmployeeController>(client =>{
     client.BaseAddress = builder.Configuration.GetServiceUri("StudentsApi");
 });
 var app = builder.Build();

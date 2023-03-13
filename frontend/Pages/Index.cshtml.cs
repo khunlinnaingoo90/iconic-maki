@@ -12,7 +12,7 @@ public class IndexModel : PageModel
         _logger = logger;
     }
     public EmployeeModels[] Employees { get; set; }
-    public async Task OnGet([FromServices] WeatherClient client)
+    public async Task OnGet([FromServices] EmployeeController client)
     {
         Employees = await client.GetEmployeesAsync();
     }
