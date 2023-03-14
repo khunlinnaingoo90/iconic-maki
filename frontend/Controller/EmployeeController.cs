@@ -24,5 +24,10 @@ namespace frontend
          var stream = await responseMessage.Content.ReadAsStreamAsync();
          return await JsonSerializer.DeserializeAsync<EmployeeModels[]>(stream, options);
       }
+      public async Task<EmployeeModels[]> DeleteEmployeeAsync(int id){
+         var responseMessage = await this.client.GetAsync("/api/students/{id}");
+         var stream = await responseMessage.Content.ReadAsStreamAsync();
+         return await JsonSerializer.DeserializeAsync<EmployeeModels[]>(stream, options);
+      }
    }
 }

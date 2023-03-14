@@ -34,7 +34,10 @@ Weather Forecast:
                 <td>@forecast.Email</td>
                 <td>@forecast.Address</td>
                 <td>@forecast.PhoneNumber</td>
-                <td></td>
+                <td>
+                    <a href="/employee/update/@forecast.id" class="btn btn-primary text-white">Edit</a>
+                    <a href="/employee/@forecast.id" class="btn btn-danger text-white">Edit</a>
+                </td>
             </tr>
             no++;
         }
