@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+Om51qDfCOalNIytSH9xoD+0ebemvCQWDnRvLTVwUAEjCF2QdmDTM94zlffEhDoXfg17ysya1DV1jy6j/1/HJw==",
+  "dgSpecHash": "TQL9nKsqrThPh20lTroIoEU42bLog69vDrZpaA2i0b0KZ19C2ZMREyWc3QJOcrH3kx+zlAJHPDZoZpUsdGYkEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\JAVA\\Docker\\test_1\\frontend\\frontend.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.1\\microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.1\\microsoft.extensions.primitives.2.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.tye.extensions.configuration\\0.4.0-alpha.20371.1\\microsoft.tye.extensions.configuration.0.4.0-alpha.20371.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
   ],

@@ -2,7 +2,7 @@ using System;
 
 namespace frontend
 {
-    public class EmployeeModels
+    public class Customer
     {
         public int id { get; set; }
         public string? FirstName { get; set; }

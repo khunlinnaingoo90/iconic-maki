@@ -31,3 +31,4 @@ C:\Users\User\Desktop\JAVA\Docker\test_1\frontend\obj\Debug\net7.0\frontend.genr
 C:\Users\User\Desktop\JAVA\Docker\test_1\frontend\obj\Debug\net7.0\ref\frontend.dll
 C:\Users\User\Desktop\JAVA\Docker\test_1\frontend\bin\Debug\net7.0\Microsoft.Tye.Extensions.Configuration.dll
 C:\Users\User\Desktop\JAVA\Docker\test_1\frontend\obj\Debug\net7.0\frontend.csproj.CopyComplete
+C:\Users\User\Desktop\JAVA\Docker\test_1\frontend\bin\Debug\net7.0\Newtonsoft.Json.dll

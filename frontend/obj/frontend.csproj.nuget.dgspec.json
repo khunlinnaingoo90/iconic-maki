@@ -43,6 +43,10 @@
             "Microsoft.Tye.Extensions.Configuration": {
               "target": "Package",
               "version": "[0.4.0-*, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
             }
           },
           "imports": [

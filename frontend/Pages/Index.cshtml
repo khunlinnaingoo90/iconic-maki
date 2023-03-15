@@ -6,7 +6,7 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Learn about <a href="/Create">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
 Weather Forecast:
@@ -25,7 +25,7 @@ Weather Forecast:
     </thead>
     <tbody>
         @{var no=1;}
-        @foreach (var forecast in @Model.Employees)
+        @foreach (var forecast in @Model.Customers)
         {
             <tr>
                 <td>@no</td>
@@ -35,8 +35,8 @@ Weather Forecast:
                 <td>@forecast.Address</td>
                 <td>@forecast.PhoneNumber</td>
                 <td>
-                    <a href="/employee/update/@forecast.id" class="btn btn-primary text-white">Edit</a>
-                    <a href="/employee/@forecast.id" class="btn btn-danger text-white">Edit</a>
+                    <a asp-page="/Edit" asp-route-id="@forecast.id">Edit</a>
+                    <a href="/employee/@forecast.id" class="btn btn-danger text-white">Delete</a>
                 </td>
             </tr>
             no++;

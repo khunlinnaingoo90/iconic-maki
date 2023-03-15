@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "frontend/1.0.0": {
         "dependencies": {
-          "Microsoft.Tye.Extensions.Configuration": "0.4.0-alpha.20371.1"
+          "Microsoft.Tye.Extensions.Configuration": "0.4.0-alpha.20371.1",
+          "Newtonsoft.Json": "12.0.1"
         },
         "runtime": {
           "frontend.dll": {}
@@ -38,6 +39,14 @@
           "lib/netstandard2.0/Microsoft.Tye.Extensions.Configuration.dll": {
             "assemblyVersion": "0.4.0.0",
             "fileVersion": "0.400.20.37101"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
           }
         }
       },
@@ -78,6 +87,13 @@
       "sha512": "sha512-ICCPcGD8QYL6QsgLveosPXuef3FZUzHKLAI0+yRA6OlOiIQMq7zAzILiX88xAGin1HUptL+z3G0TLEtHYTL36g==",
       "path": "microsoft.tye.extensions.configuration/0.4.0-alpha.20371.1",
       "hashPath": "microsoft.tye.extensions.configuration.0.4.0-alpha.20371.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
     "System.Memory/4.5.1": {
       "type": "package",

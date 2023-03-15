@@ -1,19 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using frontend;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace frontend.Pages;
 
 public class IndexModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
+    private readonly EmployeeController _apiService;
 
-    public IndexModel(ILogger<IndexModel> logger)
+    public IndexModel(EmployeeController apiService)
     {
-        _logger = logger;
+        _apiService = apiService;
     }
-    public EmployeeModels[] Employees { get; set; }
-    public async Task OnGet([FromServices] EmployeeController client)
+
+    public List<Customer> Customers { get; set; }
+
+    public async Task OnGetAsync()
     {
-        Employees = await client.GetEmployeesAsync();
+        Customers = await _apiService.GetCustomersAsync();
     }
 }

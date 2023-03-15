@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\JAVA\Docker\test_1\frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Desktop/JAVA/Docker/test_1/frontend/Pages/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/User/Desktop/JAVA/Docker/test_1/frontend/Pages/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
